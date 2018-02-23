@@ -1,0 +1,40 @@
+/* Label bold */
+span {
+	font-weight: bold;
+}
+
+/* Interesting fact italic*/
+p:first-child {
+	font-style: italic;
+	border: 1px dotted #568203;
+	box-shadow: 5px 5px 10px #568203;
+	text-align: center;
+}
+
+/* List type and indentation none */
+ul {
+	list-style-type: none;
+	padding-left: 0;
+}
+
+/* Border, color and margin for title and div */
+h3, #firstdiv, #seconddiv {
+	border: 1px outset #568203;
+	padding: 10px;
+	margin: 5px;
+	background-color: black;
+	color: #568203;	
+	box-shadow: 2px 2px 5px #568203;
+}
+
+/* Width for card */
+body {
+	width: 380px;
+}
+
+/* Margin and customize img */
+img {
+	margin: 20px;
+	box-shadow: 5px 5px 10px #3A8EBA, -5px -5px 10px #568203;
+	border: 2px outset #568203;
+}
